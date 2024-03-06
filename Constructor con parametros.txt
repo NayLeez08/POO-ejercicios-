@@ -1,0 +1,15 @@
+//Constructor con parametros
+public Persona(string nombre, string correo, string direccion, int telefono)
+{
+    this.nombre = nombre; //this hace referencia al atributo
+    this.correo = correo;
+    this.direccion = direccion;
+    this.telefono = telefono;
+}
+
+
+
+
+Persona persona2 = new Persona("Nay", "nayleal42@gmail.com", "16 sur num.1101", 246197095); //Parametros al instanciar el objeto
+
+Console.WriteLine(persona2.nombre + " " + persona2.correo + " " + persona2.direccion + " " + persona2.telefono);

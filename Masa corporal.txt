@@ -1,0 +1,16 @@
+//Masa corporal
+//IMC = peso en kg/estatura
+public double IMC()
+{
+double IMCmasa;
+IMCmasa= peso/altura;
+return IMCmasa;
+}
+
+
+
+
+//Indice de masa corporal
+persona2.peso=68;
+persona2.altura=1.60;
+Console.WriteLine("Este es el metodo de masa corporal: " + persona2.IMC());
